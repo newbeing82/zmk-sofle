@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '`', s: '~'}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -79,8 +79,8 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
-  - $$mdi:apple-keyboard-caps$$
   - {t: Sft+-, s: Sft+_}
   - {t: Sft+=, s: Sft++}
   - {t: 'Sft+[', s: 'Sft+{'}
@@ -91,9 +91,9 @@ layers:
   - $$mdi:arrow-up-bold$$
   - END
   - F11
+  - $$mdi:apple-finder$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - APP
+  - CLCK
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
@@ -104,13 +104,13 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - APP
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFR
   - RGB EFF
   - '&bl BL_DEC'
   - '&bl BL_INC'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB TOG
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - INS
   - $$mdi:backspace-reverse-outline$$
